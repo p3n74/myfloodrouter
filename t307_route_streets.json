@@ -1,0 +1,767 @@
+[
+    {
+        "start_node": 33452917,
+        "end_node": 312701885,
+        "street_name": "Quezon Boulevard",
+        "highway": "primary",
+        "length": 141.531,
+        "coordinates": [
+            [
+                14.5995193,
+                120.9842498
+            ],
+            [
+                14.5982685,
+                120.9840062
+            ]
+        ]
+    },
+    {
+        "start_node": 312701885,
+        "end_node": 312701889,
+        "street_name": "Unnamed street",
+        "highway": "primary_link",
+        "length": 227.412,
+        "coordinates": [
+            [
+                14.5982685,
+                120.9840062
+            ],
+            [
+                14.5964807,
+                120.9831681
+            ]
+        ]
+    },
+    {
+        "start_node": 312701889,
+        "end_node": 8375732065,
+        "street_name": "Carlos Palanca Street",
+        "highway": "tertiary",
+        "length": 41.262,
+        "coordinates": [
+            [
+                14.5964807,
+                120.9831681
+            ],
+            [
+                14.5961736,
+                120.9833833
+            ]
+        ]
+    },
+    {
+        "start_node": 8375732065,
+        "end_node": 2266256964,
+        "street_name": "Carlos Palanca Street",
+        "highway": "tertiary",
+        "length": 17.654,
+        "coordinates": [
+            [
+                14.5961736,
+                120.9833833
+            ],
+            [
+                14.5960443,
+                120.9834785
+            ]
+        ]
+    },
+    {
+        "start_node": 2266256964,
+        "end_node": 2266256965,
+        "street_name": "Carlos Palanca Street",
+        "highway": "tertiary",
+        "length": 52.754,
+        "coordinates": [
+            [
+                14.5960443,
+                120.9834785
+            ],
+            [
+                14.595655,
+                120.9837587
+            ]
+        ]
+    },
+    {
+        "start_node": 2266256965,
+        "end_node": 1423836685,
+        "street_name": "Carlos Palanca Street",
+        "highway": "tertiary",
+        "length": 439.904,
+        "coordinates": [
+            [
+                14.595655,
+                120.9837587
+            ],
+            [
+                14.5928492,
+                120.9865776
+            ]
+        ]
+    },
+    {
+        "start_node": 1423836685,
+        "end_node": 1892060197,
+        "street_name": "Carlos Palanca Street",
+        "highway": "tertiary",
+        "length": 44.517,
+        "coordinates": [
+            [
+                14.5928492,
+                120.9865776
+            ],
+            [
+                14.5926261,
+                120.9869211
+            ]
+        ]
+    },
+    {
+        "start_node": 1892060197,
+        "end_node": 1892060129,
+        "street_name": "Unnamed street",
+        "highway": "secondary_link",
+        "length": 39.667,
+        "coordinates": [
+            [
+                14.5926261,
+                120.9869211
+            ],
+            [
+                14.5922833,
+                120.9869688
+            ]
+        ]
+    },
+    {
+        "start_node": 1892060129,
+        "end_node": 8043660308,
+        "street_name": "Ayala Boulevard",
+        "highway": "secondary",
+        "length": 270.59299999999996,
+        "coordinates": [
+            [
+                14.5922833,
+                120.9869688
+            ],
+            [
+                14.5902398,
+                120.9856518
+            ]
+        ]
+    },
+    {
+        "start_node": 8043660308,
+        "end_node": 8043660303,
+        "street_name": "Ayala Boulevard",
+        "highway": "secondary",
+        "length": 74.74600000000001,
+        "coordinates": [
+            [
+                14.5902398,
+                120.9856518
+            ],
+            [
+                14.5896874,
+                120.985285
+            ]
+        ]
+    },
+    {
+        "start_node": 8043660303,
+        "end_node": 312702717,
+        "street_name": "Ayala Boulevard",
+        "highway": "secondary",
+        "length": 15.176,
+        "coordinates": [
+            [
+                14.5896874,
+                120.985285
+            ],
+            [
+                14.5895765,
+                120.9852028
+            ]
+        ]
+    },
+    {
+        "start_node": 312702717,
+        "end_node": 33957111,
+        "street_name": "Ayala Boulevard",
+        "highway": "secondary",
+        "length": 112.69200000000001,
+        "coordinates": [
+            [
+                14.5895765,
+                120.9852028
+            ],
+            [
+                14.5887373,
+                120.9846157
+            ]
+        ]
+    },
+    {
+        "start_node": 33957111,
+        "end_node": 8043647357,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 28.347,
+        "coordinates": [
+            [
+                14.5887373,
+                120.9846157
+            ],
+            [
+                14.5885025,
+                120.9847183
+            ]
+        ]
+    },
+    {
+        "start_node": 8043647357,
+        "end_node": 159468974,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 50.298,
+        "coordinates": [
+            [
+                14.5885025,
+                120.9847183
+            ],
+            [
+                14.5880859,
+                120.9849004
+            ]
+        ]
+    },
+    {
+        "start_node": 159468974,
+        "end_node": 163760331,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 408.116,
+        "coordinates": [
+            [
+                14.5880859,
+                120.9849004
+            ],
+            [
+                14.584714,
+                120.986398
+            ]
+        ]
+    },
+    {
+        "start_node": 163760331,
+        "end_node": 33957110,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 176.62900000000002,
+        "coordinates": [
+            [
+                14.584714,
+                120.986398
+            ],
+            [
+                14.5832573,
+                120.9870513
+            ]
+        ]
+    },
+    {
+        "start_node": 33957110,
+        "end_node": 1058992845,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 63.176,
+        "coordinates": [
+            [
+                14.5832573,
+                120.9870513
+            ],
+            [
+                14.5827309,
+                120.9872722
+            ]
+        ]
+    },
+    {
+        "start_node": 1058992845,
+        "end_node": 33957027,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 226.491,
+        "coordinates": [
+            [
+                14.5827309,
+                120.9872722
+            ],
+            [
+                14.5808516,
+                120.9880633
+            ]
+        ]
+    },
+    {
+        "start_node": 33957027,
+        "end_node": 33956704,
+        "street_name": "General Luna Street",
+        "highway": "secondary",
+        "length": 46.666,
+        "coordinates": [
+            [
+                14.5808516,
+                120.9880633
+            ],
+            [
+                14.5806514,
+                120.9884444
+            ]
+        ]
+    },
+    {
+        "start_node": 33956704,
+        "end_node": 33957034,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 108.699,
+        "coordinates": [
+            [
+                14.5806514,
+                120.9884444
+            ],
+            [
+                14.5797835,
+                120.9889092
+            ]
+        ]
+    },
+    {
+        "start_node": 33957034,
+        "end_node": 33956703,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 175.901,
+        "coordinates": [
+            [
+                14.5797835,
+                120.9889092
+            ],
+            [
+                14.5783896,
+                120.989682
+            ]
+        ]
+    },
+    {
+        "start_node": 33956703,
+        "end_node": 33956702,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 175.475,
+        "coordinates": [
+            [
+                14.5783896,
+                120.989682
+            ],
+            [
+                14.5770144,
+                120.9904818
+            ]
+        ]
+    },
+    {
+        "start_node": 33956702,
+        "end_node": 33956701,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 147.35600000000002,
+        "coordinates": [
+            [
+                14.5770144,
+                120.9904818
+            ],
+            [
+                14.5758572,
+                120.991149
+            ]
+        ]
+    },
+    {
+        "start_node": 33956701,
+        "end_node": 33956010,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 126.14,
+        "coordinates": [
+            [
+                14.5758572,
+                120.991149
+            ],
+            [
+                14.574854,
+                120.9916962
+            ]
+        ]
+    },
+    {
+        "start_node": 33956010,
+        "end_node": 33956002,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 165.938,
+        "coordinates": [
+            [
+                14.574854,
+                120.9916962
+            ],
+            [
+                14.5735402,
+                120.9924275
+            ]
+        ]
+    },
+    {
+        "start_node": 33956002,
+        "end_node": 33956697,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 155.068,
+        "coordinates": [
+            [
+                14.5735402,
+                120.9924275
+            ],
+            [
+                14.5723171,
+                120.9931196
+            ]
+        ]
+    },
+    {
+        "start_node": 33956697,
+        "end_node": 316546411,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 44.927,
+        "coordinates": [
+            [
+                14.5723171,
+                120.9931196
+            ],
+            [
+                14.5719984,
+                120.992863
+            ]
+        ]
+    },
+    {
+        "start_node": 316546411,
+        "end_node": 33956695,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 41.318,
+        "coordinates": [
+            [
+                14.5719984,
+                120.992863
+            ],
+            [
+                14.5717076,
+                120.992624
+            ]
+        ]
+    },
+    {
+        "start_node": 33956695,
+        "end_node": 33956661,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 86.194,
+        "coordinates": [
+            [
+                14.5717076,
+                120.992624
+            ],
+            [
+                14.5710993,
+                120.9921277
+            ]
+        ]
+    },
+    {
+        "start_node": 33956661,
+        "end_node": 648389533,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 57.542,
+        "coordinates": [
+            [
+                14.5710993,
+                120.9921277
+            ],
+            [
+                14.5706898,
+                120.9918008
+            ]
+        ]
+    },
+    {
+        "start_node": 648389533,
+        "end_node": 21322188,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 43.619,
+        "coordinates": [
+            [
+                14.5706898,
+                120.9918008
+            ],
+            [
+                14.5703773,
+                120.9915558
+            ]
+        ]
+    },
+    {
+        "start_node": 21322188,
+        "end_node": 33955831,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 11.382,
+        "coordinates": [
+            [
+                14.5703773,
+                120.9915558
+            ],
+            [
+                14.5702961,
+                120.9914914
+            ]
+        ]
+    },
+    {
+        "start_node": 33955831,
+        "end_node": 33956181,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 344.66400000000004,
+        "coordinates": [
+            [
+                14.5702961,
+                120.9914914
+            ],
+            [
+                14.5678491,
+                120.9895257
+            ]
+        ]
+    },
+    {
+        "start_node": 33956181,
+        "end_node": 25526943,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 215.118,
+        "coordinates": [
+            [
+                14.5678491,
+                120.9895257
+            ],
+            [
+                14.5663271,
+                120.9882918
+            ]
+        ]
+    },
+    {
+        "start_node": 25526943,
+        "end_node": 32548283,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 90.708,
+        "coordinates": [
+            [
+                14.5663271,
+                120.9882918
+            ],
+            [
+                14.5656862,
+                120.9877712
+            ]
+        ]
+    },
+    {
+        "start_node": 32548283,
+        "end_node": 25526928,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 120.373,
+        "coordinates": [
+            [
+                14.5656862,
+                120.9877712
+            ],
+            [
+                14.5651253,
+                120.9868208
+            ]
+        ]
+    },
+    {
+        "start_node": 25526928,
+        "end_node": 21720763,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 60.0,
+        "coordinates": [
+            [
+                14.5651253,
+                120.9868208
+            ],
+            [
+                14.5648906,
+                120.9863188
+            ]
+        ]
+    },
+    {
+        "start_node": 21720763,
+        "end_node": 1217111523,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 121.88300000000001,
+        "coordinates": [
+            [
+                14.5648906,
+                120.9863188
+            ],
+            [
+                14.5644446,
+                120.9852843
+            ]
+        ]
+    },
+    {
+        "start_node": 1217111523,
+        "end_node": 243426946,
+        "street_name": "Roxas Boulevard Service Road",
+        "highway": "tertiary",
+        "length": 10.04,
+        "coordinates": [
+            [
+                14.5644446,
+                120.9852843
+            ],
+            [
+                14.5643624,
+                120.9853229
+            ]
+        ]
+    },
+    {
+        "start_node": 243426946,
+        "end_node": 1685739484,
+        "street_name": "Roxas Boulevard Service Road",
+        "highway": "tertiary",
+        "length": 154.999,
+        "coordinates": [
+            [
+                14.5643624,
+                120.9853229
+            ],
+            [
+                14.563084,
+                120.9858968
+            ]
+        ]
+    },
+    {
+        "start_node": 1685739484,
+        "end_node": 6400825019,
+        "street_name": "Roxas Boulevard Service Road",
+        "highway": "tertiary",
+        "length": 41.899,
+        "coordinates": [
+            [
+                14.563084,
+                120.9858968
+            ],
+            [
+                14.5627384,
+                120.9860519
+            ]
+        ]
+    },
+    {
+        "start_node": 6400825019,
+        "end_node": 6621936982,
+        "street_name": "Roxas Boulevard Service Road",
+        "highway": "tertiary",
+        "length": 118.974,
+        "coordinates": [
+            [
+                14.5627384,
+                120.9860519
+            ],
+            [
+                14.5617583,
+                120.9864953
+            ]
+        ]
+    },
+    {
+        "start_node": 6621936982,
+        "end_node": 243426945,
+        "street_name": "Roxas Boulevard Service Road",
+        "highway": "tertiary",
+        "length": 252.22400000000002,
+        "coordinates": [
+            [
+                14.5617583,
+                120.9864953
+            ],
+            [
+                14.5596662,
+                120.9874006
+            ]
+        ]
+    },
+    {
+        "start_node": 243426945,
+        "end_node": 6507443888,
+        "street_name": "Roxas Boulevard Service Road",
+        "highway": "tertiary",
+        "length": 87.512,
+        "coordinates": [
+            [
+                14.5596662,
+                120.9874006
+            ],
+            [
+                14.558921,
+                120.9876621
+            ]
+        ]
+    },
+    {
+        "start_node": 6507443888,
+        "end_node": 1423836448,
+        "street_name": "Unnamed street",
+        "highway": "trunk_link",
+        "length": 22.65,
+        "coordinates": [
+            [
+                14.558921,
+                120.9876621
+            ],
+            [
+                14.5588363,
+                120.9874707
+            ]
+        ]
+    }
+]

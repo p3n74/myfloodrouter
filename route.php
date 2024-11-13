@@ -7,7 +7,7 @@ $routeInfo = [
 ];
 
 // Read the JSON file
-$jsonContent = file_get_contents('streets_route.json');
+$jsonContent = file_get_contents('t307_route_streets.json');
 $routeData = json_decode($jsonContent, true);
 ?>
 
@@ -43,7 +43,7 @@ $routeData = json_decode($jsonContent, true);
         <div class="row">
             <div class="col-md-9">
                 <div id="map-container">
-                    <iframe src="map_with_google.html" id="map-frame"></iframe>
+                    <iframe src="t307_jeepney_route_with_streets.html" id="map-frame"></iframe>
                 </div>
             </div>
             <div class="col-md-3">
@@ -52,8 +52,15 @@ $routeData = json_decode($jsonContent, true);
                         <h5 class="card-title">Route Information</h5>
                         <h6 class="card-subtitle mb-2 text-muted">Streets in this route:</h6>
                         <ol class="list-group list-group-numbered">
-                            <?php foreach ($routeData['route'] as $index => $street): ?>
-                                <li class="list-group-item street-item" data-street-index="<?php echo $index; ?>"><?php echo htmlspecialchars($street); ?></li>
+                            <?php 
+                            // Assuming the 'route' key contains the route's relevant streets
+                            // Loop through each street and display its name
+                            foreach ($routeData as $streetData): 
+                                $streetName = $streetData['street_name']; 
+                            ?>
+                                <li class="list-group-item street-item" data-street-name="<?php echo htmlspecialchars($streetName); ?>">
+                                    <?php echo htmlspecialchars($streetName); ?>
+                                </li>
                             <?php endforeach; ?>
                         </ol>
                         <a href="index.php" class="btn btn-primary mt-3">Back to Home</a>
@@ -71,10 +78,11 @@ $routeData = json_decode($jsonContent, true);
 
             streetItems.forEach(item => {
                 item.addEventListener('click', function() {
-                    const streetIndex = this.getAttribute('data-street-index');
+                    const streetName = this.getAttribute('data-street-name');
+                    // Assuming map interaction with the frame based on street name
                     mapFrame.contentWindow.postMessage({
                         action: 'highlightStreet',
-                        streetIndex: streetIndex
+                        streetName: streetName
                     }, '*');
                 });
             });
