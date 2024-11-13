@@ -20,27 +20,22 @@ folium.PolyLine(route_latlongs, color="blue", weight=5, opacity=0.8).add_to(map_
 folium.Marker(location=route_latlongs[0], popup="Start", icon=folium.Icon(color="green")).add_to(map_folium)
 folium.Marker(location=route_latlongs[-1], popup="End", icon=folium.Icon(color="red")).add_to(map_folium)
 
-# Check if file exists and delete it before saving
+
 import os
 if os.path.exists("map_with_google.html"):
     os.remove("map_with_google.html")
 
 map_folium.save("map_with_google.html")
 
-# Using the recommended method (routing.route_to_gdf) to get street names
 edges_gdf = ox.routing.route_to_gdf(graph, shortest_path)
 
-# Extract street names
 street_names = edges_gdf['name'].tolist()
 
-# Remove duplicates and preserve order
 unique_streets = list(dict.fromkeys(street_names))
 
-# Prepare the JSON output
 streets_json = {
     "route": unique_streets
 }
 
-# Save the JSON to a file
 with open("streets_route.json", "w") as json_file:
     json.dump(streets_json, json_file, indent=4)
