@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"name": "OOP-Final-Project",
+			"path": "../../../../../Users/bastionii/Documents/GitHub/Object-Oriented-Programming/OOP-Final-Project"
+		},
+		{
+			"name": "MLPChurnAnalysis",
+			"path": "../../../../../Users/bastionii/Documents/GitHub/MLPChurnAnalysis"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../tempwebd2"
+		},
+		{
+			"path": "../../../../../Users/bastionii/Documents/GitHub/Object-Oriented-Programming/Linear_Algebra"
+		},
+		{
+			"path": "../../../../../Users/bastionii/Documents/GitHub/Intelligent_Systems"
+		},
+		{
+			"path": "../../../../../Users/bastionii/Documents/GitHub/JeepneyRerouting"
+		},
+		{
+			"path": "../../../../../Users/bastionii/Documents/GitHub/ml-ops"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}
