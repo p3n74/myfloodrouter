@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Map - Street Network</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <style>
+        #map { height: 600px; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        
+        var map = L.map('map').setView([14.5995193, 120.9842498], 14);
+
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+        var geojsonData = {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [120.9842498, 14.5995193],
+                            [120.9840062, 14.5982685]
+                        ]
+                    },
+                    "properties": {
+                        "start_node": 33452917,
+                        "end_node": 312701885,
+                        "street_name": "Quezon Boulevard",
+                        "highway": "primary",
+                        "length": 141.531
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [120.9840062, 14.5982685],
+                            [120.9831681, 14.5964807]
+                        ]
+                    },
+                    "properties": {
+                        "start_node": 312701885,
+                        "end_node": 312701889,
+                        "street_name": "Unnamed street",
+                        "highway": "primary_link",
+                        "length": 227.412
+                    }
+                }
+            ]
+        };
+
+        // Add the GeoJSON data to the map
+        L.geoJSON(geojsonData).addTo(map);
+    </script>
+</body>
+</html>
