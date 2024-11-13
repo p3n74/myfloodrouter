@@ -1,0 +1,767 @@
+[
+    {
+        "way_id": 59346512,
+        "street_name": "Quezon Boulevard",
+        "highway": "primary",
+        "length": 141.531,
+        "coordinates": [
+            [
+                14.5995193,
+                120.9842498
+            ],
+            [
+                14.5982685,
+                120.9840062
+            ]
+        ]
+    },
+    {
+        "way_id": 28462755,
+        "street_name": "Unnamed street",
+        "highway": "primary_link",
+        "length": 227.412,
+        "coordinates": [
+            [
+                14.5982685,
+                120.9840062
+            ],
+            [
+                14.5964807,
+                120.9831681
+            ]
+        ]
+    },
+    {
+        "way_id": [
+            844435274,
+            1079417221,
+            676953218
+        ],
+        "street_name": "Carlos Palanca Street",
+        "highway": "tertiary",
+        "length": 41.262,
+        "coordinates": [
+            [
+                14.5964807,
+                120.9831681
+            ],
+            [
+                14.5961736,
+                120.9833833
+            ]
+        ]
+    },
+    {
+        "way_id": 217353705,
+        "street_name": "Carlos Palanca Street",
+        "highway": "tertiary",
+        "length": 17.654,
+        "coordinates": [
+            [
+                14.5961736,
+                120.9833833
+            ],
+            [
+                14.5960443,
+                120.9834785
+            ]
+        ]
+    },
+    {
+        "way_id": 217353705,
+        "street_name": "Carlos Palanca Street",
+        "highway": "tertiary",
+        "length": 52.754,
+        "coordinates": [
+            [
+                14.5960443,
+                120.9834785
+            ],
+            [
+                14.595655,
+                120.9837587
+            ]
+        ]
+    },
+    {
+        "way_id": [
+            745787649,
+            217353705,
+            29337368,
+            1086828668,
+            1086828669
+        ],
+        "street_name": "Carlos Palanca Street",
+        "highway": "tertiary",
+        "length": 439.904,
+        "coordinates": [
+            [
+                14.595655,
+                120.9837587
+            ],
+            [
+                14.5928492,
+                120.9865776
+            ]
+        ]
+    },
+    {
+        "way_id": 745787649,
+        "street_name": "Carlos Palanca Street",
+        "highway": "tertiary",
+        "length": 44.517,
+        "coordinates": [
+            [
+                14.5928492,
+                120.9865776
+            ],
+            [
+                14.5926261,
+                120.9869211
+            ]
+        ]
+    },
+    {
+        "way_id": 178853135,
+        "street_name": "Unnamed street",
+        "highway": "secondary_link",
+        "length": 39.667,
+        "coordinates": [
+            [
+                14.5926261,
+                120.9869211
+            ],
+            [
+                14.5922833,
+                120.9869688
+            ]
+        ]
+    },
+    {
+        "way_id": [
+            4350721,
+            12804722,
+            745787645,
+            863467423
+        ],
+        "street_name": "Ayala Boulevard",
+        "highway": "secondary",
+        "length": 270.59299999999996,
+        "coordinates": [
+            [
+                14.5922833,
+                120.9869688
+            ],
+            [
+                14.5902398,
+                120.9856518
+            ]
+        ]
+    },
+    {
+        "way_id": [
+            863467433,
+            916902959
+        ],
+        "street_name": "Ayala Boulevard",
+        "highway": "secondary",
+        "length": 74.74600000000001,
+        "coordinates": [
+            [
+                14.5902398,
+                120.9856518
+            ],
+            [
+                14.5896874,
+                120.985285
+            ]
+        ]
+    },
+    {
+        "way_id": 158627301,
+        "street_name": "Ayala Boulevard",
+        "highway": "secondary",
+        "length": 15.176,
+        "coordinates": [
+            [
+                14.5896874,
+                120.985285
+            ],
+            [
+                14.5895765,
+                120.9852028
+            ]
+        ]
+    },
+    {
+        "way_id": 158627301,
+        "street_name": "Ayala Boulevard",
+        "highway": "secondary",
+        "length": 112.69200000000001,
+        "coordinates": [
+            [
+                14.5895765,
+                120.9852028
+            ],
+            [
+                14.5887373,
+                120.9846157
+            ]
+        ]
+    },
+    {
+        "way_id": 1126164114,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 28.347,
+        "coordinates": [
+            [
+                14.5887373,
+                120.9846157
+            ],
+            [
+                14.5885025,
+                120.9847183
+            ]
+        ]
+    },
+    {
+        "way_id": 158627309,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 50.298,
+        "coordinates": [
+            [
+                14.5885025,
+                120.9847183
+            ],
+            [
+                14.5880859,
+                120.9849004
+            ]
+        ]
+    },
+    {
+        "way_id": [
+            156307521,
+            34546107,
+            158627309
+        ],
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 408.116,
+        "coordinates": [
+            [
+                14.5880859,
+                120.9849004
+            ],
+            [
+                14.584714,
+                120.986398
+            ]
+        ]
+    },
+    {
+        "way_id": 156307521,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 176.62900000000002,
+        "coordinates": [
+            [
+                14.584714,
+                120.986398
+            ],
+            [
+                14.5832573,
+                120.9870513
+            ]
+        ]
+    },
+    {
+        "way_id": 1065937124,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 63.176,
+        "coordinates": [
+            [
+                14.5832573,
+                120.9870513
+            ],
+            [
+                14.5827309,
+                120.9872722
+            ]
+        ]
+    },
+    {
+        "way_id": 1065937124,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 226.491,
+        "coordinates": [
+            [
+                14.5827309,
+                120.9872722
+            ],
+            [
+                14.5808516,
+                120.9880633
+            ]
+        ]
+    },
+    {
+        "way_id": 1065937123,
+        "street_name": "General Luna Street",
+        "highway": "secondary",
+        "length": 46.666,
+        "coordinates": [
+            [
+                14.5808516,
+                120.9880633
+            ],
+            [
+                14.5806514,
+                120.9884444
+            ]
+        ]
+    },
+    {
+        "way_id": 820063556,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 108.699,
+        "coordinates": [
+            [
+                14.5806514,
+                120.9884444
+            ],
+            [
+                14.5797835,
+                120.9889092
+            ]
+        ]
+    },
+    {
+        "way_id": 156307518,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 175.901,
+        "coordinates": [
+            [
+                14.5797835,
+                120.9889092
+            ],
+            [
+                14.5783896,
+                120.989682
+            ]
+        ]
+    },
+    {
+        "way_id": 820063555,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 175.475,
+        "coordinates": [
+            [
+                14.5783896,
+                120.989682
+            ],
+            [
+                14.5770144,
+                120.9904818
+            ]
+        ]
+    },
+    {
+        "way_id": [
+            1065937112,
+            1065937111
+        ],
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 147.35600000000002,
+        "coordinates": [
+            [
+                14.5770144,
+                120.9904818
+            ],
+            [
+                14.5758572,
+                120.991149
+            ]
+        ]
+    },
+    {
+        "way_id": 1065937111,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 126.14,
+        "coordinates": [
+            [
+                14.5758572,
+                120.991149
+            ],
+            [
+                14.574854,
+                120.9916962
+            ]
+        ]
+    },
+    {
+        "way_id": 1065937111,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 165.938,
+        "coordinates": [
+            [
+                14.574854,
+                120.9916962
+            ],
+            [
+                14.5735402,
+                120.9924275
+            ]
+        ]
+    },
+    {
+        "way_id": 630347724,
+        "street_name": "San Marcelino Street",
+        "highway": "secondary",
+        "length": 155.068,
+        "coordinates": [
+            [
+                14.5735402,
+                120.9924275
+            ],
+            [
+                14.5723171,
+                120.9931196
+            ]
+        ]
+    },
+    {
+        "way_id": 363136210,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 44.927,
+        "coordinates": [
+            [
+                14.5723171,
+                120.9931196
+            ],
+            [
+                14.5719984,
+                120.992863
+            ]
+        ]
+    },
+    {
+        "way_id": 851327005,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 41.318,
+        "coordinates": [
+            [
+                14.5719984,
+                120.992863
+            ],
+            [
+                14.5717076,
+                120.992624
+            ]
+        ]
+    },
+    {
+        "way_id": [
+            851327002,
+            677343502
+        ],
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 86.194,
+        "coordinates": [
+            [
+                14.5717076,
+                120.992624
+            ],
+            [
+                14.5710993,
+                120.9921277
+            ]
+        ]
+    },
+    {
+        "way_id": 677343505,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 57.542,
+        "coordinates": [
+            [
+                14.5710993,
+                120.9921277
+            ],
+            [
+                14.5706898,
+                120.9918008
+            ]
+        ]
+    },
+    {
+        "way_id": 851327015,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 43.619,
+        "coordinates": [
+            [
+                14.5706898,
+                120.9918008
+            ],
+            [
+                14.5703773,
+                120.9915558
+            ]
+        ]
+    },
+    {
+        "way_id": 156307498,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 11.382,
+        "coordinates": [
+            [
+                14.5703773,
+                120.9915558
+            ],
+            [
+                14.5702961,
+                120.9914914
+            ]
+        ]
+    },
+    {
+        "way_id": [
+            303549252,
+            1074271589,
+            1064110214
+        ],
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 344.66400000000004,
+        "coordinates": [
+            [
+                14.5702961,
+                120.9914914
+            ],
+            [
+                14.5678491,
+                120.9895257
+            ]
+        ]
+    },
+    {
+        "way_id": 712297670,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 215.118,
+        "coordinates": [
+            [
+                14.5678491,
+                120.9895257
+            ],
+            [
+                14.5663271,
+                120.9882918
+            ]
+        ]
+    },
+    {
+        "way_id": 355380024,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 90.708,
+        "coordinates": [
+            [
+                14.5663271,
+                120.9882918
+            ],
+            [
+                14.5656862,
+                120.9877712
+            ]
+        ]
+    },
+    {
+        "way_id": 355380024,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 120.373,
+        "coordinates": [
+            [
+                14.5656862,
+                120.9877712
+            ],
+            [
+                14.5651253,
+                120.9868208
+            ]
+        ]
+    },
+    {
+        "way_id": 156307494,
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 60.0,
+        "coordinates": [
+            [
+                14.5651253,
+                120.9868208
+            ],
+            [
+                14.5648906,
+                120.9863188
+            ]
+        ]
+    },
+    {
+        "way_id": [
+            1302133599,
+            156307495
+        ],
+        "street_name": "President Quirino Avenue",
+        "highway": "primary",
+        "length": 121.88300000000001,
+        "coordinates": [
+            [
+                14.5648906,
+                120.9863188
+            ],
+            [
+                14.5644446,
+                120.9852843
+            ]
+        ]
+    },
+    {
+        "way_id": 105689892,
+        "street_name": "Roxas Boulevard Service Road",
+        "highway": "tertiary",
+        "length": 10.04,
+        "coordinates": [
+            [
+                14.5644446,
+                120.9852843
+            ],
+            [
+                14.5643624,
+                120.9853229
+            ]
+        ]
+    },
+    {
+        "way_id": [
+            1059061388,
+            851365487
+        ],
+        "street_name": "Roxas Boulevard Service Road",
+        "highway": "tertiary",
+        "length": 154.999,
+        "coordinates": [
+            [
+                14.5643624,
+                120.9853229
+            ],
+            [
+                14.563084,
+                120.9858968
+            ]
+        ]
+    },
+    {
+        "way_id": 688086637,
+        "street_name": "Roxas Boulevard Service Road",
+        "highway": "tertiary",
+        "length": 41.899,
+        "coordinates": [
+            [
+                14.563084,
+                120.9858968
+            ],
+            [
+                14.5627384,
+                120.9860519
+            ]
+        ]
+    },
+    {
+        "way_id": 688086637,
+        "street_name": "Roxas Boulevard Service Road",
+        "highway": "tertiary",
+        "length": 118.974,
+        "coordinates": [
+            [
+                14.5627384,
+                120.9860519
+            ],
+            [
+                14.5617583,
+                120.9864953
+            ]
+        ]
+    },
+    {
+        "way_id": [
+            1059061387,
+            1311376589,
+            657310230
+        ],
+        "street_name": "Roxas Boulevard Service Road",
+        "highway": "tertiary",
+        "length": 252.22400000000002,
+        "coordinates": [
+            [
+                14.5617583,
+                120.9864953
+            ],
+            [
+                14.5596662,
+                120.9874006
+            ]
+        ]
+    },
+    {
+        "way_id": [
+            1311376588,
+            693126654
+        ],
+        "street_name": "Roxas Boulevard Service Road",
+        "highway": "tertiary",
+        "length": 87.512,
+        "coordinates": [
+            [
+                14.5596662,
+                120.9874006
+            ],
+            [
+                14.558921,
+                120.9876621
+            ]
+        ]
+    },
+    {
+        "way_id": 1293118595,
+        "street_name": "Unnamed street",
+        "highway": "trunk_link",
+        "length": 22.65,
+        "coordinates": [
+            [
+                14.558921,
+                120.9876621
+            ],
+            [
+                14.5588363,
+                120.9874707
+            ]
+        ]
+    }
+]

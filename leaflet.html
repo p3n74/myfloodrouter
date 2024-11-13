@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Route Map</h1>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        // Create map centered at the starting point
+        var map = L.map('map').setView([14.5995193, 120.9842498], 13);
+
+        // Add OpenStreetMap tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Define the routes from the given data
+        var routes = [
+            {
+                "coordinates": [
+                    [14.5995193, 120.9842498],
+                    [14.5982685, 120.9840062]
+                ]
+            },
+            {
+                "coordinates": [
+                    [14.5982685, 120.9840062],
+                    [14.5964807, 120.9831681]
+                ]
+            },
+            {
+                "coordinates": [
+                    [14.5964807, 120.9831681],
+                    [14.5961736, 120.9833833]
+                ]
+            },
+            {
+                "coordinates": [
+                    [14.5961736, 120.9833833],
+                    [14.5960443, 120.9834785]
+                ]
+            },
+            {
+                "coordinates": [
+                    [14.5960443, 120.9834785],
+                    [14.595655, 120.9837587]
+                ]
+            },
+            {
+                "coordinates": [
+                    [14.595655, 120.9837587],
+                    [14.5928492, 120.9865776]
+                ]
+            },
+            {
+                "coordinates": [
+                    [14.5928492, 120.9865776],
+                    [14.5926261, 120.9869211]
+                ]
+            },
+            {
+                "coordinates": [
+                    [14.5926261, 120.9869211],
+                    [14.5922833, 120.9869688]
+                ]
+            },
+            {
+                "coordinates": [
+                    [14.5922833, 120.9869688],
+                    [14.5902398, 120.9856518]
+                ]
+            },
+            {
+                "coordinates": [
+                    [14.5902398, 120.9856518],
+                    [14.5896874, 120.985285]
+                ]
+            },
+            {
+                "coordinates": [
+                    [14.5896874, 120.985285],
+                    [14.5895765, 120.9852028]
+                ]
+            }
+        ];
+
+        // Plot each route on the map
+        routes.forEach(function(route) {
+            L.polyline(route.coordinates, { color: 'blue', weight: 5 }).addTo(map);
+        });
+
+        // Add markers for each coordinate
+        routes.forEach(function(route) {
+            route.coordinates.forEach(function(coord) {
+                L.marker(coord).addTo(map);
+            });
+        });
+    </script>
+</body>
+</html>
