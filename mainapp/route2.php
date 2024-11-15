@@ -8,7 +8,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Map Timeline</title>
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .map-thumbnail {
@@ -38,7 +37,6 @@
             display: flex; /* Use flexbox for the row */
         }
 
-        /* Adjust the height of the street list to match the map */
         #streetListContainer {
             height: 500px; /* Match the height of the map */
             overflow-y: auto; /* Enable vertical scrolling */
@@ -54,39 +52,35 @@
 <body>
     <div class="container my-4">
         <div class="row">
-            <!-- Timeline -->
             <div class="col-md-9">
                 <div id="timeline" class="timeline">
-                    <!-- Buttons for each map -->
                     <button class="btn btn-outline-primary map-thumbnail active" data-map="map0.html" data-json="streets0.json">
                         Now
                     </button>
                     <button class="btn btn-outline-primary map-thumbnail" data-map="map1.html" data-json="streets1.json">
-                        +3h
+                        3 Hours Later
                     </button>
                     <button class="btn btn-outline-primary map-thumbnail" data-map="map2.html" data-json="streets2.json">
-                        +6h
+                        6 Hours Later
                     </button>
                     <button class="btn btn-outline-primary map-thumbnail" data-map="map3.html" data-json="streets3.json">
-                        +9h
+                        9 Hours Later
                     </button>
                     <button class="btn btn-outline-primary map-thumbnail" data-map="map4.html" data-json="streets4.json">
-                        +12h
+                        12 Hours Later
                     </button>
                     <button class="btn btn-outline-primary map-thumbnail" data-map="map5.html" data-json="streets5.json">
-                        +15h
+                        15 Hours Later
                     </button>
                     <button class="btn btn-outline-primary map-thumbnail" data-map="map6.html" data-json="streets6.json">
-                        +18h
+                        18 Hours Later
                     </button>
                     <button class="btn btn-outline-primary map-thumbnail" data-map="map7.html" data-json="streets7.json">
-                        +21h
+                        21 Hours Later
                     </button>
                 </div>
-                <!-- Map Viewer -->
                 <iframe id="mapViewer" src="map0.html" class="iframe-container mt-3"></iframe>
             </div>
-            <!-- Street List -->
             <div class="col-md-3">
                 <h4>Street List</h4>
                 <div id="streetListContainer">
@@ -98,7 +92,6 @@
                             </tr>
                         </thead>
                         <tbody id="streetList">
-                            <!-- Streets will be dynamically loaded here -->
                         </tbody>
                     </table>
                 </div>
@@ -106,20 +99,17 @@
         </div>
     </div>
 
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        // Function to load the JSON file and populate the street list
         async function loadStreets(jsonFile) {
             const streetList = document.getElementById('streetList');
-            streetList.innerHTML = ''; // Clear existing data
+            streetList.innerHTML = '';
 
             try {
                 const response = await fetch(jsonFile);
                 if (!response.ok) throw new Error('Failed to fetch streets data.');
                 const streets = await response.json();
 
-                // Populate the street list table
                 streets.forEach((street, index) => {
                     const row = document.createElement('tr');
                     row.innerHTML = `<td>${index + 1}</td><td>${street}</td>`;
@@ -131,25 +121,20 @@
             }
         }
 
-        // Event listeners for map buttons
         document.querySelectorAll('.map-thumbnail').forEach(button => {
             button.addEventListener('click', function () {
-                // Highlight the selected map
                 document.querySelectorAll('.map-thumbnail').forEach(btn => btn.classList.remove('active'));
                 this.classList.add('active');
                 
-                // Load the corresponding map in the iframe
                 const mapSrc = this.getAttribute('data-map');
                 document.getElementById('mapViewer').src = mapSrc;
 
-                // Load the corresponding streets JSON
                 const jsonFile = this.getAttribute('data-json');
                 loadStreets(jsonFile);
             });
         });
 
-        // Initial load
-        loadStreets('streets0.json'); // Load the streets for the first map
+        loadStreets('streets0.json'); 
     </script>
 </body>
 </html>
