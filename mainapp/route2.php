@@ -63,7 +63,7 @@
                     <button class="btn btn-outline-primary map-thumbnail" data-map="T307/map1.html" data-json="T307/streets1.json">
                         3:00 am - 5:59 am
                     </button>
-                    <button class="btn btn-outline-primary map-thumbnail" data-map="T307/base.html" data-json="T307/basestreets.json">
+                    <button class="btn btn-outline-primary map-thumbnail" data-map="T307/map2.html" data-json="T307/streets2.json">
                         6:00 am - 8:59 am
                     </button>
                     <button class="btn btn-outline-primary map-thumbnail" data-map="T307/base.html" data-json="T307/basestreets.json">
