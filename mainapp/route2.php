@@ -1,5 +1,5 @@
 <?php
-// Your PHP code can go here if needed
+
 ?>
 
 <!DOCTYPE html>
@@ -17,13 +17,13 @@
         }
 
         .map-thumbnail.active {
-            border-color: #007bff; /* Highlight color */
+            border-color: #007bff; 
         }
 
         .iframe-container {
             width: 100%;
-            height: 500px; /* Fixed height for the map */
-            border: 2px solid #333; /* Border for the map */
+            height: 500px; 
+            border: 2px solid #333; 
         }
 
         .timeline {
@@ -34,18 +34,18 @@
         }
 
         .row {
-            display: flex; /* Use flexbox for the row */
+            display: flex; 
         }
 
         #streetListContainer {
-            height: 500px; /* Match the height of the map */
-            overflow-y: auto; /* Enable vertical scrolling */
-            border-left: 2px solid #333; /* Border between map and list */
+            height: 500px; 
+            overflow-y: auto; 
+            border-left: 2px solid #333;
         }
 
         .col-md-9, .col-md-3 {
             display: flex;
-            flex-direction: column; /* Stack children vertically */
+            flex-direction: column; 
         }
     </style>
 </head>
