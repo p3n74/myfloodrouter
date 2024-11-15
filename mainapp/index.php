@@ -8,16 +8,16 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="mb-4">Flood Router 2.0</h1>
+        <h1 class="mb-4">Flood Re-Router 1.0</h1>
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Select a Route</h5>
                         <ul class="list-group">
-                            <li class="list-group-item"><a href="route.php?route=A" class="btn btn-primary w-100">Route A</a></li>
-                            <li class="list-group-item"><a href="route.php?route=B" class="btn btn-primary w-100">Route B</a></li>
-                            <li class="list-group-item"><a href="route.php?route=C" class="btn btn-primary w-100">Route C</a></li>
+                            <li class="list-group-item"><a href="route2.php?route=A" class="btn btn-primary w-100">T307 Jeepney Route</a></li>
+                            <li class="list-group-item"><a href="#" class="btn btn-secondary w-100" tabindex="-1" aria-disabled="true">None</a></li>
+                            <li class="list-group-item"><a href="#" class="btn btn-secondary w-100" tabindex="-1" aria-disabled="true">None</a></li>
                         </ul>
                     </div>
                 </div>
