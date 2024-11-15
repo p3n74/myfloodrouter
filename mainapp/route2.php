@@ -1,7 +1,6 @@
 <?php
-
+// Your PHP code can go here if needed
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,8 +23,8 @@
 
         .iframe-container {
             width: 100%;
-            height: 500px;
-            border: none;
+            height: 500px; /* Fixed height for the map */
+            border: 2px solid #333; /* Border for the map */
         }
 
         .timeline {
@@ -33,6 +32,12 @@
             gap: 10px;
             overflow-x: auto;
             padding: 10px;
+        }
+
+        /* Adjust the height of the street list to match the map */
+        #streetListContainer {
+            height: 500px; /* Match the height of the map */
+            overflow-y: auto; /* Enable vertical scrolling */
         }
     </style>
 </head>
@@ -74,17 +79,19 @@
             <!-- Street List -->
             <div class="col-md-3">
                 <h4>Street List</h4>
-                <table class="table table-bordered table-striped">
-                    <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Street Name</th>
-                        </tr>
-                    </thead>
-                    <tbody id="streetList">
-                        <!-- Streets will be dynamically loaded here -->
-                    </tbody>
-                </table>
+                <div id="streetListContainer">
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Street Name</th>
+                            </tr>
+                        </thead>
+                        <tbody id="streetList">
+                            <!-- Streets will be dynamically loaded here -->
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
