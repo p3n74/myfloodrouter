@@ -40,6 +40,7 @@ for element in data['elements']:
     street = {
         "start_node": nodes[0],  # The first node in the way
         "end_node": nodes[-1],   # The last node in the way
+        "node_ids": nodes,        # Include the list of node IDs
         "street_name": element.get('tags', {}).get('name', 'Unnamed street'),
         "highway": element.get('tags', {}).get('highway', 'unknown'),
         "length": element.get('tags', {}).get('length', 0),  # Length might not always be available

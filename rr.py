@@ -7,31 +7,25 @@ import random
 import json
 import geopandas as gpd
 import numpy as np
-import random
 import itertools
-
 
 import overpass
 from shapely.geometry import Polygon, LineString, Point
 import overpy
 from osmapi import OsmApi
 
-
+# Define the bounding box for the area of interest
 BOUNDING_BOX = (14.64106, 14.54603, 121.12186, 120.95226)
 graph_of_area = ox.graph_from_bbox(bbox=BOUNDING_BOX)
-
 subgraph = ox.io.load_graphml('T307-graph-original.graphml')
-
 
 def get_nearest_node_and_delete_it(node_id, graph, x, y):
     graph.remove_node(node_id)
     return get_nearest_node(graph, x, y)
 
-
 def get_nearest_node(graph, x, y):
     nn, _ = tuple(nn_dist for nn_dist in ox.distance.nearest_nodes(graph.copy(), x, y, return_dist=True))
     return nn
-
 
 def get_random_lst_of_nodes(graph, num_nodes_to_delete):
     random_nodes = []
@@ -46,7 +40,6 @@ def get_random_lst_of_nodes(graph, num_nodes_to_delete):
             random_nodes.append(node)
             counter += 1
     return random_nodes
-
 
 def get_lst_of_rerouted_paths(G, G_sub, deleted_nodes):
     shortest_paths_between_closest_nodes = []
@@ -73,36 +66,54 @@ def get_lst_of_rerouted_paths(G, G_sub, deleted_nodes):
                 continue
     return shortest_paths_between_closest_nodes
 
+def plot_rerouted_paths(rerouted_paths):
+    """Plot the rerouted paths on a map."""
+    fig, ax = plt.subplots(figsize=(10, 10))
+
+    # Plot each path
+    for path in rerouted_paths:
+        # Get the coordinates of the path
+        path_edges = [(path[i], path[i + 1]) for i in range(len(path) - 1)]
+        for edge in path_edges:
+            # Get the geometry of the edge
+            if edge in graph_of_area.edges:
+                x, y = zip(*[(graph_of_area.nodes[edge[0]]['x'], graph_of_area.nodes[edge[0]]['y']),
+                              (graph_of_area.nodes[edge[1]]['x'], graph_of_area.nodes[edge[1]]['y'])])
+                ax.plot(x, y, color='blue', linewidth=2)
+
+    # Set the limits and labels
+    ax.set_xlim(120.95226, 121.12186)
+    ax.set_ylim(14.54603, 14.64106)
+    ax.set_title("Rerouted Paths")
+    ax.set_xlabel("Longitude")
+    ax.set_ylabel("Latitude")
+
+    # Add a basemap
+    cx.add_basemap(ax, crs=ox.projected.crs_from_epsg(4326), source=cx.providers.Stamen.Terrain)
+
+    plt.show()
 
 def get_reroute(G_sub, shortest_paths_between_closest_nodes):
     rerouted_sub_graph_lst = []
     for path in shortest_paths_between_closest_nodes:
         rerouted_sub_graph_lst.append(graph_of_area.subgraph(path))
+    
     rerouted_sub_graph = nx.compose(G_sub, nx.compose_all(rerouted_sub_graph_lst))
-    return ox.graph_to_gdfs(rerouted_sub_graph, nodes=False)
+    
+    # Convert to GeoDataFrames
+    gdf_edges = ox.graph_to_gdfs(rerouted_sub_graph, nodes=False)
+    
+    # Plot the rerouted paths
+    plot_rerouted_paths(shortest_paths_between_closest_nodes)
 
-# Example usage to create a JSON file
-G = graph_of_area.copy()
-G_sub = subgraph.copy()
-num_nodes_to_delete = 5
-deleted_nodes = get_random_lst_of_nodes(G_sub, num_nodes_to_delete)
-shortest_paths = get_lst_of_rerouted_paths(G, G_sub, deleted_nodes)
-rerouted_graph = get_reroute(G_sub, shortest_paths)
+    return gdf_edges
 
-# Extract node IDs from the rerouted graph
-node_ids = list(rerouted_graph.index)  # Assuming the first element is the GeoDataFrame
-
-# Format the data as a list of dictionaries
-formatted_data = [{"node_id": node_id} for node_id in node_ids]
-
-# Save to a JSON file
-with open('rerouted_nodes.json', 'w') as json_file:
-    json.dump(formatted_data, json_file, indent=4)
-
-
-
-# G = graph_of_area.copy()
-# G_sub = subgraph.copy()
-# num_nodes_to_delete = 5
-# deleted_nodes = get_random_lst_of_nodes(G_sub, num_nodes_to_delete)
-# print(deleted_nodes)
+# Example usage
+if __name__ == "__main__":
+    # Example of how to use the functions
+    G = graph_of_area.copy()
+    G_sub = subgraph.copy()
+    num_nodes_to_delete = 5
+    deleted_nodes = get_random_lst_of_nodes(G_sub, num_nodes_to_delete)
+    shortest_paths = get_lst_of_rerouted_paths(G, G_sub, deleted_nodes)
+    gdf_edges = get_reroute(G_sub, shortest_paths)
