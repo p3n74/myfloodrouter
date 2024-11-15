@@ -55,7 +55,7 @@
             <div class="col-md-9">
                 <div id="timeline" class="timeline">
                     <button class="btn btn-outline-primary map-thumbnail" data-map="T307/base.html" data-json="T307/basestreet.json">
-                        View Normal Map
+                        View Normal Route
                     </button>
                     <button class="btn btn-outline-primary map-thumbnail active" data-map="T307/base.html" data-json="T307/basestreet.json">
                         12:00 am - 2:59 am
