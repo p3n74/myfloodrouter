@@ -66,19 +66,19 @@
                     <button class="btn btn-outline-primary map-thumbnail" data-map="T307/map2.html" data-json="T307/streets2.json">
                         6:00 am - 8:59 am
                     </button>
-                    <button class="btn btn-outline-primary map-thumbnail" data-map="T307/base.html" data-json="T307/basestreets.json">
+                    <button class="btn btn-outline-primary map-thumbnail" data-map="T307/base.html" data-json="T307/basestreet.json">
                         9:00 am - 11:59 am
                     </button>
-                    <button class="btn btn-outline-primary map-thumbnail" data-map="T307/base.html" data-json="T307/basestreets.json">
+                    <button class="btn btn-outline-primary map-thumbnail" data-map="T307/base.html" data-json="T307/basestreet.json">
                         12:00 pm - 2:59 pm
                     </button>
-                    <button class="btn btn-outline-primary map-thumbnail" data-map="T307/base.html" data-json="T307/basestreets.json">
+                    <button class="btn btn-outline-primary map-thumbnail" data-map="T307/base.html" data-json="T307/basestreet.json">
                         3:00 pm - 5:59 pm
                     </button>
-                    <button class="btn btn-outline-primary map-thumbnail" data-map="T307/base.html" data-json="T307/basestreets.json">
+                    <button class="btn btn-outline-primary map-thumbnail" data-map="T307/base.html" data-json="T307/basestreet.json">
                         6:00 pm - 8:59 pm
                     </button>
-                    <button class="btn btn-outline-primary map-thumbnail" data-map="T307/base.html" data-json="T307/basestreets.json">
+                    <button class="btn btn-outline-primary map-thumbnail" data-map="T307/base.html" data-json="T307/basestreet.json">
                         9:00 pm - 11:59 pm
                     </button>
                 </div>
