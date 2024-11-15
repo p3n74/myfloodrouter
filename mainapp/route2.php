@@ -34,10 +34,20 @@
             padding: 10px;
         }
 
+        .row {
+            display: flex; /* Use flexbox for the row */
+        }
+
         /* Adjust the height of the street list to match the map */
         #streetListContainer {
             height: 500px; /* Match the height of the map */
             overflow-y: auto; /* Enable vertical scrolling */
+            border-left: 2px solid #333; /* Border between map and list */
+        }
+
+        .col-md-9, .col-md-3 {
+            display: flex;
+            flex-direction: column; /* Stack children vertically */
         }
     </style>
 </head>
